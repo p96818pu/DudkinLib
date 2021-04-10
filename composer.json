@@ -20,6 +20,8 @@
 			"type": "git",
 			"url": "https://github.com/rok9ru/trpo-core"
 		}
-	]
-
+	],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
 }

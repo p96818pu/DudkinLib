@@ -19,9 +19,7 @@ class SquareEq extends LineEq implements EquationInterface {
             $squareDis = sqrt($dis);
             return $this->x = array((-$b + $squareDis) / (2 * $a), (-$b - $squareDis) / (2 * $a));
         }elseif ($dis == 0) {
-            return $this->x = -$b / (2 * $a);
-        }elseif ($dis < 0) {
-            throw new DudkinException('The equation has no solutions');
+            return $this->x = array(-$b / (2 * $a));
         }
         throw new DudkinException('No roots');
     }
