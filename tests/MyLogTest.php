@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Bezrukov\MyLog;
+use p96818pu\MyLog;
 
 class MyLogTest extends TestCase
 {
